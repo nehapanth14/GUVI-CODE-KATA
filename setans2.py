@@ -15,5 +15,5 @@ except Exception:
 if num <=100000:
     get(num)
 else:
-    print "Enter the number below 100000"
+    print "Enter the number between 1 to 100000"
 
