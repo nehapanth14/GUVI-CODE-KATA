@@ -18,9 +18,11 @@ def normal(year): # THIS IS FOR GENERAL YEAR EXCLUDING THE CENTURY
     else:
         print""
 
-
-year = int(input("Enter a year: "))
-
+try:
+    year = int(input("Enter a year: "))
+except Exception:
+    print "Invalid entry , Enter a year"
+    
 special(year)
 normal(year)
 
